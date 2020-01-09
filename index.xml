@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>https://www.yusufff.com/</link>
+    <link>https://yusufff.com/</link>
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Jan 2020 01:33:37 +0700</lastBuildDate>
     
-	<atom:link href="https://www.yusufff.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yusufff.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>https://www.yusufff.com/hello-world/</link>
+      <link>https://yusufff.com/hello-world/</link>
       <pubDate>Fri, 10 Jan 2020 01:33:37 +0700</pubDate>
       
-      <guid>https://www.yusufff.com/hello-world/</guid>
+      <guid>https://yusufff.com/hello-world/</guid>
       <description>Halo,
 Hari ini waktunya menerbitkan postingan pertama :)
 Today is great day to publish my first post. I hope i can continue writing another great post.
