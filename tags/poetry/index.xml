@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>poetry on Hello Yusuf</title>
+    <link>http://example.org/tags/poetry/</link>
+    <description>Recent content in poetry on Hello Yusuf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jan 2020 23:44:29 +0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post Kedua</title>
+      <link>http://example.org/post-kedua/</link>
+      <pubDate>Thu, 09 Jan 2020 23:44:29 +0700</pubDate>
+      
+      <guid>http://example.org/post-kedua/</guid>
+      <description>Haha Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://example.org/hello-world/</link>
+      <pubDate>Thu, 09 Jan 2020 23:22:38 +0700</pubDate>
+      
+      <guid>http://example.org/hello-world/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+  </channel>
+</rss>
