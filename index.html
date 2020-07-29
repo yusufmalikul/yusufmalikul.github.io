@@ -8,19 +8,25 @@
   
   <title>Yusuf&#39;s Homepage</title>
   
+  
+  <meta name="description" content="Welcome to my homepage">
+  
   <link rel="stylesheet" href="http://example.org/css/style.css" />
 </head>
 
-  <body>
+  <body onload="checkDarkMode()">
     <div id="nav-border" class="container">
-  <nav id="nav">
+  <nav>
      
-    <a href="/">Home</a>
+    <a href="/">Home</a> - 
      
-    <a href="/blog/">Blog</a>
+    <a href="/blog/">Blog</a> - 
      
-    <a href="/tags/">Tags</a>
+    <a href="/tags/">Tags</a> - 
+     
+    <a href="/about">About</a> - 
     
+    <a href="#" onclick="toggleDarkMode()">(Dark Mode)</a>
   </nav>
 </div>
 
@@ -29,12 +35,38 @@
         
 <h1>Yusuf&#39;s Homepage</h1>
 <p>
-  Welcome to my homepage
+  Welcome to my digital home.<br>
+My name is Yusuf. I will write and document things i learned here.<br>
+I hope you enjoy your stay :)
 </p>
 
 
       </main>
     </div>
-    
+    <script>
+  function toggleDarkMode() {
+    var element = document.body;
+    if (localStorage.getItem("dark") == "false") {
+      localStorage.setItem("dark", "true");
+      element.classList.add("dark-mode");
+    } else if (localStorage.getItem("dark") == "true") {
+      localStorage.setItem("dark", "false");
+      element.classList.remove("dark-mode");
+    } else {
+      localStorage.setItem("dark", "true");
+      element.classList.add("dark-mode");
+    }
+  }
+
+  function checkDarkMode() {
+    var element = document.body;
+    if (localStorage.getItem("dark") == "true") {
+      element.classList.add("dark-mode");
+    } else if (localStorage.getItem("dark") == "false") {
+      element.classList.remove("dark-mode");
+    }
+  }
+</script>
+
   </body>
 </html>
