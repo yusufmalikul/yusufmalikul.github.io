@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link rel="stylesheet" href="https://yusufff.com/css/style.css">
-    
-    <link rel="shortcut icon" href="https://yusufff.com/img/favicon.ico">
-    
-    
-    <title>Tags | Home | Yusufff.com</title>
-    <style>
-
-</style>
-
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Tags | Yusuf&#39;s Homepage</title>
+  
+  
+  <meta name="description" content="">
+  
+  <link rel="stylesheet" href="http://example.org/css/style.css" />
 </head>
 
-	<body>
-        <div class="nav-border" class="container">
-    <nav class="nav">
+  <body onload="checkDarkMode()">
+    <div id="nav-border" class="container">
+  <nav>
+     
+    <a href="/">Home</a> - 
+     
+    <a href="/blog/">Blog</a> - 
+     
+    <a href="/tags/">Tags</a> - 
+     
+    <a href="/about">About</a> - 
     
-        
-        
-        <a href="/"><i data-feather="home"></i> Home</a>
-    
-        
-        
-        <a href="/blog/"><i data-feather="edit"></i> Blog</a>
-    
-        
-        
-        <a href="/tags/"><i data-feather="tag"></i> Tags</a>
-    
-    </nav>
-
+    <a href="#" onclick="toggleDarkMode()">(Dark Mode)</a>
+  </nav>
 </div>
 
-		<div class="container">
-			<main id="main">
-				
+    <div class="container">
+      <main>
+        
+
 <h1>Tags</h1>
 
 
 <p>
-    <a href="https://yusufff.com/tags/general/">
-        <span>1</span> general
-    </a>
+  <a href="http://example.org/tags/about/"
+    ><span>( 1 )</span> about</a>
 </p>
 
+<p>
+  <a href="http://example.org/tags/other/"
+    ><span>( 1 )</span> other</a>
+</p>
+ 
+      </main>
+    </div>
+    <script>
+  function toggleDarkMode() {
+    var element = document.body;
+    if (localStorage.getItem("dark") == "false") {
+      localStorage.setItem("dark", "true");
+      element.classList.add("dark-mode");
+    } else if (localStorage.getItem("dark") == "true") {
+      localStorage.setItem("dark", "false");
+      element.classList.remove("dark-mode");
+    } else {
+      localStorage.setItem("dark", "true");
+      element.classList.add("dark-mode");
+    }
+  }
 
+  function checkDarkMode() {
+    var element = document.body;
+    if (localStorage.getItem("dark") == "true") {
+      element.classList.add("dark-mode");
+    } else if (localStorage.getItem("dark") == "false") {
+      element.classList.remove("dark-mode");
+    }
+  }
+</script>
 
-			</main>
-		</div>
-        
-<script src="https://yusufff.com/js/script.js"></script>
-
-	</body>
+  </body>
 </html>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Yusuf&#39;s Homepage</title>
-    <link>http://example.org/blog/</link>
-    <description>Recent content in Blog on Yusuf&#39;s Homepage</description>
+    <title>about on Yusuf&#39;s Homepage</title>
+    <link>http://example.org/tags/about/</link>
+    <description>Recent content in about on Yusuf&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Jul 2020 21:12:20 +0700</lastBuildDate>
     
-	<atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>http://example.org/perkenalan/</guid>
       <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates accusantium repudiandae quasi vero dolorum illo beatae cupiditate aperiam? Facilis eaque necessitatibus nesciunt quaerat dolorum explicabo dignissimos saepe magni? Ad.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>http://example.org/hello-world/</link>
-      <pubDate>Wed, 29 Jul 2020 20:59:12 +0700</pubDate>
-      
-      <guid>http://example.org/hello-world/</guid>
-      <description>Haha i am testing Hore
-Terkenal</description>
     </item>
     
   </channel>

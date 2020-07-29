@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home</title>
-    <link>https://yusufff.com/</link>
-    <description>Recent content on Home</description>
+    <title>Yusuf&#39;s Homepage</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Yusuf&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2020 01:33:37 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2020 21:12:20 +0700</lastBuildDate>
     
-	<atom:link href="https://yusufff.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello World</title>
-      <link>https://yusufff.com/hello-world/</link>
-      <pubDate>Fri, 10 Jan 2020 01:33:37 +0700</pubDate>
+      <title>Perkenalan</title>
+      <link>http://example.org/perkenalan/</link>
+      <pubDate>Wed, 29 Jul 2020 21:12:20 +0700</pubDate>
       
-      <guid>https://yusufff.com/hello-world/</guid>
-      <description>Halo,
-Hari ini waktunya menerbitkan postingan pertama :)
-Today is great day to publish my first post. I hope i can continue writing another great post.
-Best,
-Yusuf</description>
+      <guid>http://example.org/perkenalan/</guid>
+      <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates accusantium repudiandae quasi vero dolorum illo beatae cupiditate aperiam? Facilis eaque necessitatibus nesciunt quaerat dolorum explicabo dignissimos saepe magni? Ad.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://example.org/hello-world/</link>
+      <pubDate>Wed, 29 Jul 2020 20:59:12 +0700</pubDate>
+      
+      <guid>http://example.org/hello-world/</guid>
+      <description>Haha i am testing Hore
+Terkenal</description>
     </item>
     
   </channel>

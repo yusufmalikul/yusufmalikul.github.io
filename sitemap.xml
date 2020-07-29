@@ -3,28 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yusufff.com/blog/</loc>
-    <lastmod>2020-01-10T01:33:37+07:00</lastmod>
+    <loc>http://example.org/tags/about/</loc>
+    <lastmod>2020-07-29T21:12:20+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yusufff.com/tags/general/</loc>
-    <lastmod>2020-01-10T01:33:37+07:00</lastmod>
+    <loc>http://example.org/blog/</loc>
+    <lastmod>2020-07-29T21:12:20+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yusufff.com/hello-world/</loc>
-    <lastmod>2020-01-10T01:33:37+07:00</lastmod>
+    <loc>http://example.org/perkenalan/</loc>
+    <lastmod>2020-07-29T21:12:20+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yusufff.com/</loc>
-    <lastmod>2020-01-10T01:33:37+07:00</lastmod>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2020-07-29T21:12:20+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yusufff.com/tags/</loc>
-    <lastmod>2020-01-10T01:33:37+07:00</lastmod>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-07-29T21:12:20+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hello-world/</loc>
+    <lastmod>2020-07-29T20:59:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/other/</loc>
+    <lastmod>2020-07-29T20:59:12+07:00</lastmod>
   </url>
   
 </urlset>

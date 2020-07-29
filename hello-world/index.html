@@ -1,71 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link rel="stylesheet" href="https://yusufff.com/css/style.css">
-    
-    <link rel="shortcut icon" href="https://yusufff.com/img/favicon.ico">
-    
-    
-    <title>Hello World | Home | Yusufff.com</title>
-    <style>
-
-</style>
-
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Hello World | Yusuf&#39;s Homepage</title>
+  
+  
+  <meta name="description" content="Haha i am testing Hore
+Terkenal">
+  
+  <link rel="stylesheet" href="http://example.org/css/style.css" />
 </head>
 
-	<body>
-        <div class="nav-border" class="container">
-    <nav class="nav">
+  <body onload="checkDarkMode()">
+    <div id="nav-border" class="container">
+  <nav>
+     
+    <a href="/">Home</a> - 
+     
+    <a href="/blog/">Blog</a> - 
+     
+    <a href="/tags/">Tags</a> - 
+     
+    <a href="/about">About</a> - 
     
-        
-        
-        <a href="/"><i data-feather="home"></i> Home</a>
-    
-        
-        
-        <a href="/blog/"><i data-feather="edit"></i> Blog</a>
-    
-        
-        
-        <a href="/tags/"><i data-feather="tag"></i> Tags</a>
-    
-    </nav>
-
+    <a href="#" onclick="toggleDarkMode()">(Dark Mode)</a>
+  </nav>
 </div>
 
-		<div class="container">
-			<main id="main">
-				
-
-<h1>Hello World</h1>
-
-
-<i></i><time datetime="2020-01-10">Jan 10, 2020</time>
-
-    <br>
-    <i></i>
-    
-    
-    <a href="https://yusufff.com/tags/general">general</a>
-    
-
-
-<br><br>
-<p>Halo,</p>
-<p>Hari ini waktunya menerbitkan postingan pertama :)</p>
-<p>Today is great day to publish my first post. I hope i can continue writing another great post.</p>
-<p>Best,</p>
-<p>Yusuf</p>
-
-
-
-			</main>
-		</div>
+    <div class="container">
+      <main>
         
-<script src="https://yusufff.com/js/script.js"></script>
+<h1>
+  Hello World
+</h1>
 
-	</body>
+
+
+<i>Jul 29, 2020</i>
+
+
+<p>Haha i am testing
+Hore</p>
+<p>Terkenal</p>
+
+
+ <br> 
+tags:  
+<a href="http://example.org/tags/other">other</a>
+ 
+
+
+      </main>
+    </div>
+    <script>
+  function toggleDarkMode() {
+    var element = document.body;
+    if (localStorage.getItem("dark") == "false") {
+      localStorage.setItem("dark", "true");
+      element.classList.add("dark-mode");
+    } else if (localStorage.getItem("dark") == "true") {
+      localStorage.setItem("dark", "false");
+      element.classList.remove("dark-mode");
+    } else {
+      localStorage.setItem("dark", "true");
+      element.classList.add("dark-mode");
+    }
+  }
+
+  function checkDarkMode() {
+    var element = document.body;
+    if (localStorage.getItem("dark") == "true") {
+      element.classList.add("dark-mode");
+    } else if (localStorage.getItem("dark") == "false") {
+      element.classList.remove("dark-mode");
+    }
+  }
+</script>
+
+  </body>
 </html>
