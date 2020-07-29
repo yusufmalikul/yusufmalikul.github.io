@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yusuf&#39;s Homepage</title>
-    <link>http://example.org/</link>
+    <link>https://yusufff.com/</link>
     <description>Recent content on Yusuf&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Jul 2020 21:12:20 +0700</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yusufff.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Perkenalan</title>
-      <link>http://example.org/perkenalan/</link>
+      <link>https://yusufff.com/perkenalan/</link>
       <pubDate>Wed, 29 Jul 2020 21:12:20 +0700</pubDate>
       
-      <guid>http://example.org/perkenalan/</guid>
+      <guid>https://yusufff.com/perkenalan/</guid>
       <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates accusantium repudiandae quasi vero dolorum illo beatae cupiditate aperiam? Facilis eaque necessitatibus nesciunt quaerat dolorum explicabo dignissimos saepe magni? Ad.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>http://example.org/hello-world/</link>
+      <link>https://yusufff.com/hello-world/</link>
       <pubDate>Wed, 29 Jul 2020 20:59:12 +0700</pubDate>
       
-      <guid>http://example.org/hello-world/</guid>
+      <guid>https://yusufff.com/hello-world/</guid>
       <description>Haha i am testing Hore
 Terkenal</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>https://yusufff.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://yusufff.com/about/</guid>
       <description>My name is Yusuf</description>
     </item>
     
